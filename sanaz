@@ -66,7 +66,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "Xi51Wo5mo.AlVAndnet.tOP",
+          "serverName": "Xi51WO5mO.ALVAnDNeT.toP",
           "alpn": [
             "h2",
             "http/1.1"
@@ -77,7 +77,7 @@
         "wsSettings": {
           "path": "/qRIo8qHLptZmI21o7qrEe",
           "headers": {
-            "Host": "Xi51Wo5mo.AlVAndnet.tOP"
+            "Host": "Xi51WO5mO.ALVAnDNeT.toP"
           }
         },
         "sockopt": {
@@ -86,6 +86,12 @@
           "mark": 255,
           "tcpNoDelay": true
         }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": 8,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": "reject"
       }
     },
     {
