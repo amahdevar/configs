@@ -51,7 +51,7 @@
       "settings": {
         "servers": [
           {
-            "address": "7UTp7R5crQi8ovx.alvandnet.top",
+            "address": "nexload.ir",
             "level": 1,
             "flow": "",
             "method": "chacha20-poly1305",
@@ -66,7 +66,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "7UTp7r5CrQI8OVX.AlvanDnEt.TOp",
+          "serverName": "fTZTVrH5eLD5JM.ALVaNdnet.tOp",
           "alpn": [
             "h2",
             "http/1.1"
@@ -77,7 +77,7 @@
         "wsSettings": {
           "path": "/qRIo8qHLptZmI21o7qrEe",
           "headers": {
-            "Host": "7UTp7r5CrQI8OVX.AlvanDnEt.TOp"
+            "Host": "fTZTVrH5eLD5JM.ALVaNdnet.tOp"
           }
         },
         "sockopt": {
