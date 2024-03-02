@@ -66,7 +66,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "zUla.iR",
+          "serverName": "zULa.IR",
           "alpn": [
             "h2",
             "http/1.1"
@@ -77,7 +77,7 @@
         "wsSettings": {
           "path": "/qRIo8qHLptZmI21o7qrEe",
           "headers": {
-            "Host": "zUla.iR"
+            "Host": "zULa.IR"
           }
         },
         "sockopt": {
@@ -136,27 +136,6 @@
           "api"
         ],
         "outboundTag": "api",
-        "enabled": true
-      },
-      {
-        "id": "5465425548310166497",
-        "type": "field",
-        "outboundTag": "direct",
-        "domain": [
-          "domain:ir",
-          "geosite:cn"
-        ],
-        "enabled": true
-      },
-      {
-        "id": "5425034033205580637",
-        "type": "field",
-        "outboundTag": "direct",
-        "ip": [
-          "geoip:private",
-          "geoip:cn",
-          "geoip:ir"
-        ],
         "enabled": true
       },
       {
