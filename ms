@@ -51,7 +51,7 @@
       "settings": {
         "servers": [
           {
-            "address": "uJDUdxmXbdqb3Tx.alvandnet.top",
+            "address": "zula.ir",
             "level": 1,
             "flow": "",
             "method": "chacha20-poly1305",
@@ -66,7 +66,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "zULa.IR",
+          "serverName": "uJdUdxMXBdqb3TX.AlvAnDneT.Top",
           "alpn": [
             "h2",
             "http/1.1"
@@ -77,7 +77,7 @@
         "wsSettings": {
           "path": "/qRIo8qHLptZmI21o7qrEe",
           "headers": {
-            "Host": "zULa.IR"
+            "Host": "uJdUdxMXBdqb3TX.AlvAnDneT.Top"
           }
         },
         "sockopt": {
@@ -136,6 +136,27 @@
           "api"
         ],
         "outboundTag": "api",
+        "enabled": true
+      },
+      {
+        "id": "5465425548310166497",
+        "type": "field",
+        "outboundTag": "direct",
+        "domain": [
+          "domain:ir",
+          "geosite:cn"
+        ],
+        "enabled": true
+      },
+      {
+        "id": "5425034033205580637",
+        "type": "field",
+        "outboundTag": "direct",
+        "ip": [
+          "geoip:private",
+          "geoip:cn",
+          "geoip:ir"
+        ],
         "enabled": true
       },
       {
